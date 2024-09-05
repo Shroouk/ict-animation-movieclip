@@ -36207,7 +36207,8 @@ if (reversed == null) { reversed = false; }
 		this.stop()
 	}
 	this.frame_1756 = function() {
-		playSoundEffect("Keyboard_typing")
+		//playSoundEffect("Keyboard_typing");
+		createjs.Sound.play("Keyboard_typing");
 	}
 	this.frame_1785 = function() {
 		var s = this
@@ -38118,6 +38119,7 @@ if (reversed == null) { reversed = false; }
 		gameStage.wrong_lesson6_ar.visible = !enLang;
 		
 		gameStage.retake1_btn.addEventListener('click',()=>{
+		createjs.Sound.stop();
 		ansArr = ["","","","","","","","",""];
 		gameStage.gotoAndStop("start")	
 			})
@@ -38169,7 +38171,8 @@ if (reversed == null) { reversed = false; }
 		gameStage.score2.correct_score.text = score + " %"
 		
 		gameStage.retake2_btn.addEventListener('click',()=>{
-		ansArr = ["","","","","","","","",""];
+		createjs.Sound.stop();
+			ansArr = ["","","","","","","","",""];
 		gameStage.gotoAndStop("start")	
 			})
 		
@@ -39104,45 +39107,45 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_267.png?1725538573307", id:"CachedBmp_267"},
-		{src:"images/index_atlas_1.png?1725538571774", id:"index_atlas_1"},
-		{src:"images/index_atlas_2.png?1725538571774", id:"index_atlas_2"},
-		{src:"images/index_atlas_3.png?1725538571774", id:"index_atlas_3"},
-		{src:"images/index_atlas_4.png?1725538571774", id:"index_atlas_4"},
-		{src:"images/index_atlas_5.png?1725538571774", id:"index_atlas_5"},
-		{src:"images/index_atlas_6.png?1725538571774", id:"index_atlas_6"},
-		{src:"images/index_atlas_7.png?1725538571774", id:"index_atlas_7"},
-		{src:"images/index_atlas_8.png?1725538571775", id:"index_atlas_8"},
-		{src:"images/index_atlas_9.png?1725538571775", id:"index_atlas_9"},
-		{src:"images/index_atlas_10.png?1725538571775", id:"index_atlas_10"},
-		{src:"images/index_atlas_11.png?1725538571775", id:"index_atlas_11"},
-		{src:"images/index_atlas_12.png?1725538571775", id:"index_atlas_12"},
-		{src:"images/index_atlas_13.png?1725538571775", id:"index_atlas_13"},
-		{src:"images/index_atlas_14.png?1725538571775", id:"index_atlas_14"},
-		{src:"images/index_atlas_15.png?1725538571775", id:"index_atlas_15"},
-		{src:"images/index_atlas_16.png?1725538571776", id:"index_atlas_16"},
-		{src:"images/index_atlas_17.png?1725538571776", id:"index_atlas_17"},
-		{src:"images/index_atlas_18.png?1725538571776", id:"index_atlas_18"},
-		{src:"images/index_atlas_19.png?1725538571776", id:"index_atlas_19"},
-		{src:"images/index_atlas_20.png?1725538571776", id:"index_atlas_20"},
-		{src:"images/index_atlas_21.png?1725538571777", id:"index_atlas_21"},
-		{src:"images/index_atlas_22.png?1725538571777", id:"index_atlas_22"},
-		{src:"images/index_atlas_23.png?1725538571777", id:"index_atlas_23"},
-		{src:"images/index_atlas_24.png?1725538571777", id:"index_atlas_24"},
-		{src:"images/index_atlas_25.png?1725538571778", id:"index_atlas_25"},
-		{src:"images/index_atlas_26.png?1725538571778", id:"index_atlas_26"},
-		{src:"images/index_atlas_27.png?1725538571778", id:"index_atlas_27"},
-		{src:"images/index_atlas_28.png?1725538571778", id:"index_atlas_28"},
-		{src:"images/index_atlas_29.png?1725538571779", id:"index_atlas_29"},
-		{src:"images/index_atlas_30.png?1725538571779", id:"index_atlas_30"},
-		{src:"images/index_atlas_31.png?1725538571779", id:"index_atlas_31"},
-		{src:"images/index_atlas_32.png?1725538571779", id:"index_atlas_32"},
-		{src:"images/index_atlas_33.png?1725538571780", id:"index_atlas_33"},
-		{src:"images/index_atlas_34.png?1725538571782", id:"index_atlas_34"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1725538573307", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1725538573307", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/textinput.js?1725538573307", id:"an.TextInput"},
-		{src:"components/ui/src/css.js?1725538573307", id:"an.CSS"}
+		{src:"images/CachedBmp_267.png?1725540293785", id:"CachedBmp_267"},
+		{src:"images/index_atlas_1.png?1725540292372", id:"index_atlas_1"},
+		{src:"images/index_atlas_2.png?1725540292373", id:"index_atlas_2"},
+		{src:"images/index_atlas_3.png?1725540292373", id:"index_atlas_3"},
+		{src:"images/index_atlas_4.png?1725540292373", id:"index_atlas_4"},
+		{src:"images/index_atlas_5.png?1725540292373", id:"index_atlas_5"},
+		{src:"images/index_atlas_6.png?1725540292373", id:"index_atlas_6"},
+		{src:"images/index_atlas_7.png?1725540292373", id:"index_atlas_7"},
+		{src:"images/index_atlas_8.png?1725540292373", id:"index_atlas_8"},
+		{src:"images/index_atlas_9.png?1725540292374", id:"index_atlas_9"},
+		{src:"images/index_atlas_10.png?1725540292374", id:"index_atlas_10"},
+		{src:"images/index_atlas_11.png?1725540292374", id:"index_atlas_11"},
+		{src:"images/index_atlas_12.png?1725540292374", id:"index_atlas_12"},
+		{src:"images/index_atlas_13.png?1725540292374", id:"index_atlas_13"},
+		{src:"images/index_atlas_14.png?1725540292374", id:"index_atlas_14"},
+		{src:"images/index_atlas_15.png?1725540292374", id:"index_atlas_15"},
+		{src:"images/index_atlas_16.png?1725540292375", id:"index_atlas_16"},
+		{src:"images/index_atlas_17.png?1725540292375", id:"index_atlas_17"},
+		{src:"images/index_atlas_18.png?1725540292375", id:"index_atlas_18"},
+		{src:"images/index_atlas_19.png?1725540292375", id:"index_atlas_19"},
+		{src:"images/index_atlas_20.png?1725540292375", id:"index_atlas_20"},
+		{src:"images/index_atlas_21.png?1725540292376", id:"index_atlas_21"},
+		{src:"images/index_atlas_22.png?1725540292376", id:"index_atlas_22"},
+		{src:"images/index_atlas_23.png?1725540292376", id:"index_atlas_23"},
+		{src:"images/index_atlas_24.png?1725540292376", id:"index_atlas_24"},
+		{src:"images/index_atlas_25.png?1725540292377", id:"index_atlas_25"},
+		{src:"images/index_atlas_26.png?1725540292377", id:"index_atlas_26"},
+		{src:"images/index_atlas_27.png?1725540292377", id:"index_atlas_27"},
+		{src:"images/index_atlas_28.png?1725540292377", id:"index_atlas_28"},
+		{src:"images/index_atlas_29.png?1725540292378", id:"index_atlas_29"},
+		{src:"images/index_atlas_30.png?1725540292378", id:"index_atlas_30"},
+		{src:"images/index_atlas_31.png?1725540292378", id:"index_atlas_31"},
+		{src:"images/index_atlas_32.png?1725540292379", id:"index_atlas_32"},
+		{src:"images/index_atlas_33.png?1725540292379", id:"index_atlas_33"},
+		{src:"images/index_atlas_34.png?1725540292381", id:"index_atlas_34"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1725540293785", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1725540293785", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/textinput.js?1725540293785", id:"an.TextInput"},
+		{src:"components/ui/src/css.js?1725540293785", id:"an.CSS"}
 	],
 	preloads: []
 };
