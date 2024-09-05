@@ -38390,7 +38390,7 @@ if (reversed == null) { reversed = false; }
 
 	this.robotAction2 = new lib.Symbol17();
 	this.robotAction2.name = "robotAction2";
-	this.robotAction2.setTransform(529.85,160.45,0.4091,0.5856,0,0,0,36.6,48.1);
+	this.robotAction2.setTransform(501.85,160.45,0.4091,0.5856,0,0,0,36.6,48.1);
 
 	this.robotAction4 = new lib.Symbol17();
 	this.robotAction4.name = "robotAction4";
@@ -38399,12 +38399,12 @@ if (reversed == null) { reversed = false; }
 
 	this.robotAction5 = new lib.Symbol17();
 	this.robotAction5.name = "robotAction5";
-	this.robotAction5.setTransform(186.05,343.1,0.4045,0.6072,0,0,0,35.5,48);
+	this.robotAction5.setTransform(175.05,371.1,0.4045,0.6072,0,0,0,35.5,48);
 	this.robotAction5._off = true;
 
 	this.robotAction6 = new lib.Symbol17();
 	this.robotAction6.name = "robotAction6";
-	this.robotAction6.setTransform(758.45,360.35,0.3863,0.5965,0,0,0,35.8,48.2);
+	this.robotAction6.setTransform(731.45,369.35,0.3863,0.5965,0,0,0,35.8,48.2);
 	this.robotAction6._off = true;
 
 	this.robotAction7 = new lib.Symbol17();
@@ -38414,26 +38414,26 @@ if (reversed == null) { reversed = false; }
 
 	this.robotAction8 = new lib.Symbol17();
 	this.robotAction8.name = "robotAction8";
-	this.robotAction8.setTransform(592.9,202.5,0.409,0.6036,0,0,0,35.8,48.6);
+	this.robotAction8.setTransform(571.9,209.5,0.409,0.6036,0,0,0,35.8,48.6);
 	this.robotAction8._off = true;
 
 	this.robotAction9 = new lib.Symbol17();
 	this.robotAction9.name = "robotAction9";
-	this.robotAction9.setTransform(792.55,385.75,0.4091,0.6035,0,0,0,34.7,47.4);
+	this.robotAction9.setTransform(764.55,388.75,0.4091,0.6035,0,0,0,34.7,47.4);
 	this.robotAction9._off = true;
 
 	this.robotAction10 = new lib.Symbol17();
 	this.robotAction10.name = "robotAction10";
-	this.robotAction10.setTransform(760,355.5,0.4091,0.5964,0,0,0,34.6,46.9);
+	this.robotAction10.setTransform(734,350.5,0.4091,0.5964,0,0,0,34.6,46.9);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.robotAction1}]},10).to({state:[{t:this.robotAction2}]},1).to({state:[]},1).to({state:[{t:this.robotAction4}]},1).to({state:[{t:this.robotAction5}]},1).to({state:[{t:this.robotAction6}]},1).to({state:[{t:this.robotAction7}]},1).to({state:[{t:this.robotAction8}]},1).to({state:[{t:this.robotAction9}]},1).to({state:[{t:this.robotAction10}]},1).to({state:[]},1).wait(4));
-	this.timeline.addTween(cjs.Tween.get(this.robotAction1).wait(10).to({_off:false},0).to({_off:true,regX:36.6,regY:48.1,scaleX:0.4091,scaleY:0.5856,x:529.85,y:160.45},1).wait(13));
-	this.timeline.addTween(cjs.Tween.get(this.robotAction4).wait(13).to({_off:false},0).to({_off:true,regX:35.5,regY:48,scaleX:0.4045,scaleY:0.6072,x:186.05,y:343.1},1).wait(10));
-	this.timeline.addTween(cjs.Tween.get(this.robotAction5).wait(13).to({_off:false},1).to({_off:true,regX:35.8,regY:48.2,scaleX:0.3863,scaleY:0.5965,x:758.45,y:360.35},1).wait(9));
+	this.timeline.addTween(cjs.Tween.get(this.robotAction1).wait(10).to({_off:false},0).to({_off:true,regX:36.6,regY:48.1,scaleX:0.4091,scaleY:0.5856,x:501.85,y:160.45},1).wait(13));
+	this.timeline.addTween(cjs.Tween.get(this.robotAction4).wait(13).to({_off:false},0).to({_off:true,regX:35.5,regY:48,scaleX:0.4045,scaleY:0.6072,x:175.05,y:371.1},1).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.robotAction5).wait(13).to({_off:false},1).to({_off:true,regX:35.8,regY:48.2,scaleX:0.3863,scaleY:0.5965,x:731.45,y:369.35},1).wait(9));
 	this.timeline.addTween(cjs.Tween.get(this.robotAction6).wait(14).to({_off:false},1).to({_off:true,regX:35.7,regY:48.3,scaleX:0.409,scaleY:0.5964,x:648.1,y:232.1},1).wait(8));
-	this.timeline.addTween(cjs.Tween.get(this.robotAction7).wait(15).to({_off:false},1).to({_off:true,regX:35.8,regY:48.6,scaleY:0.6036,x:592.9,y:202.5},1).wait(7));
-	this.timeline.addTween(cjs.Tween.get(this.robotAction8).wait(16).to({_off:false},1).to({_off:true,regX:34.7,regY:47.4,scaleX:0.4091,scaleY:0.6035,x:792.55,y:385.75},1).wait(6));
-	this.timeline.addTween(cjs.Tween.get(this.robotAction9).wait(17).to({_off:false},1).to({_off:true,regX:34.6,regY:46.9,scaleY:0.5964,x:760,y:355.5},1).wait(5));
+	this.timeline.addTween(cjs.Tween.get(this.robotAction7).wait(15).to({_off:false},1).to({_off:true,regX:35.8,regY:48.6,scaleY:0.6036,x:571.9,y:209.5},1).wait(7));
+	this.timeline.addTween(cjs.Tween.get(this.robotAction8).wait(16).to({_off:false},1).to({_off:true,regX:34.7,regY:47.4,scaleX:0.4091,scaleY:0.6035,x:764.55,y:388.75},1).wait(6));
+	this.timeline.addTween(cjs.Tween.get(this.robotAction9).wait(17).to({_off:false},1).to({_off:true,regX:34.6,regY:46.9,scaleY:0.5964,x:734,y:350.5},1).wait(5));
 
 	// progress_bar
 	this.prog_bar2 = new lib.Symbol127();
@@ -39107,45 +39107,45 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_267.png?1725540293785", id:"CachedBmp_267"},
-		{src:"images/index_atlas_1.png?1725540292372", id:"index_atlas_1"},
-		{src:"images/index_atlas_2.png?1725540292373", id:"index_atlas_2"},
-		{src:"images/index_atlas_3.png?1725540292373", id:"index_atlas_3"},
-		{src:"images/index_atlas_4.png?1725540292373", id:"index_atlas_4"},
-		{src:"images/index_atlas_5.png?1725540292373", id:"index_atlas_5"},
-		{src:"images/index_atlas_6.png?1725540292373", id:"index_atlas_6"},
-		{src:"images/index_atlas_7.png?1725540292373", id:"index_atlas_7"},
-		{src:"images/index_atlas_8.png?1725540292373", id:"index_atlas_8"},
-		{src:"images/index_atlas_9.png?1725540292374", id:"index_atlas_9"},
-		{src:"images/index_atlas_10.png?1725540292374", id:"index_atlas_10"},
-		{src:"images/index_atlas_11.png?1725540292374", id:"index_atlas_11"},
-		{src:"images/index_atlas_12.png?1725540292374", id:"index_atlas_12"},
-		{src:"images/index_atlas_13.png?1725540292374", id:"index_atlas_13"},
-		{src:"images/index_atlas_14.png?1725540292374", id:"index_atlas_14"},
-		{src:"images/index_atlas_15.png?1725540292374", id:"index_atlas_15"},
-		{src:"images/index_atlas_16.png?1725540292375", id:"index_atlas_16"},
-		{src:"images/index_atlas_17.png?1725540292375", id:"index_atlas_17"},
-		{src:"images/index_atlas_18.png?1725540292375", id:"index_atlas_18"},
-		{src:"images/index_atlas_19.png?1725540292375", id:"index_atlas_19"},
-		{src:"images/index_atlas_20.png?1725540292375", id:"index_atlas_20"},
-		{src:"images/index_atlas_21.png?1725540292376", id:"index_atlas_21"},
-		{src:"images/index_atlas_22.png?1725540292376", id:"index_atlas_22"},
-		{src:"images/index_atlas_23.png?1725540292376", id:"index_atlas_23"},
-		{src:"images/index_atlas_24.png?1725540292376", id:"index_atlas_24"},
-		{src:"images/index_atlas_25.png?1725540292377", id:"index_atlas_25"},
-		{src:"images/index_atlas_26.png?1725540292377", id:"index_atlas_26"},
-		{src:"images/index_atlas_27.png?1725540292377", id:"index_atlas_27"},
-		{src:"images/index_atlas_28.png?1725540292377", id:"index_atlas_28"},
-		{src:"images/index_atlas_29.png?1725540292378", id:"index_atlas_29"},
-		{src:"images/index_atlas_30.png?1725540292378", id:"index_atlas_30"},
-		{src:"images/index_atlas_31.png?1725540292378", id:"index_atlas_31"},
-		{src:"images/index_atlas_32.png?1725540292379", id:"index_atlas_32"},
-		{src:"images/index_atlas_33.png?1725540292379", id:"index_atlas_33"},
-		{src:"images/index_atlas_34.png?1725540292381", id:"index_atlas_34"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1725540293785", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1725540293785", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/textinput.js?1725540293785", id:"an.TextInput"},
-		{src:"components/ui/src/css.js?1725540293785", id:"an.CSS"}
+		{src:"images/CachedBmp_267.png?1725542307608", id:"CachedBmp_267"},
+		{src:"images/index_atlas_1.png?1725542305985", id:"index_atlas_1"},
+		{src:"images/index_atlas_2.png?1725542305985", id:"index_atlas_2"},
+		{src:"images/index_atlas_3.png?1725542305985", id:"index_atlas_3"},
+		{src:"images/index_atlas_4.png?1725542305986", id:"index_atlas_4"},
+		{src:"images/index_atlas_5.png?1725542305986", id:"index_atlas_5"},
+		{src:"images/index_atlas_6.png?1725542305986", id:"index_atlas_6"},
+		{src:"images/index_atlas_7.png?1725542305986", id:"index_atlas_7"},
+		{src:"images/index_atlas_8.png?1725542305986", id:"index_atlas_8"},
+		{src:"images/index_atlas_9.png?1725542305986", id:"index_atlas_9"},
+		{src:"images/index_atlas_10.png?1725542305986", id:"index_atlas_10"},
+		{src:"images/index_atlas_11.png?1725542305987", id:"index_atlas_11"},
+		{src:"images/index_atlas_12.png?1725542305987", id:"index_atlas_12"},
+		{src:"images/index_atlas_13.png?1725542305987", id:"index_atlas_13"},
+		{src:"images/index_atlas_14.png?1725542305987", id:"index_atlas_14"},
+		{src:"images/index_atlas_15.png?1725542305987", id:"index_atlas_15"},
+		{src:"images/index_atlas_16.png?1725542305987", id:"index_atlas_16"},
+		{src:"images/index_atlas_17.png?1725542305987", id:"index_atlas_17"},
+		{src:"images/index_atlas_18.png?1725542305988", id:"index_atlas_18"},
+		{src:"images/index_atlas_19.png?1725542305988", id:"index_atlas_19"},
+		{src:"images/index_atlas_20.png?1725542305988", id:"index_atlas_20"},
+		{src:"images/index_atlas_21.png?1725542305988", id:"index_atlas_21"},
+		{src:"images/index_atlas_22.png?1725542305989", id:"index_atlas_22"},
+		{src:"images/index_atlas_23.png?1725542305989", id:"index_atlas_23"},
+		{src:"images/index_atlas_24.png?1725542305989", id:"index_atlas_24"},
+		{src:"images/index_atlas_25.png?1725542305989", id:"index_atlas_25"},
+		{src:"images/index_atlas_26.png?1725542305989", id:"index_atlas_26"},
+		{src:"images/index_atlas_27.png?1725542305990", id:"index_atlas_27"},
+		{src:"images/index_atlas_28.png?1725542305990", id:"index_atlas_28"},
+		{src:"images/index_atlas_29.png?1725542305990", id:"index_atlas_29"},
+		{src:"images/index_atlas_30.png?1725542305990", id:"index_atlas_30"},
+		{src:"images/index_atlas_31.png?1725542305991", id:"index_atlas_31"},
+		{src:"images/index_atlas_32.png?1725542305991", id:"index_atlas_32"},
+		{src:"images/index_atlas_33.png?1725542305992", id:"index_atlas_33"},
+		{src:"images/index_atlas_34.png?1725542305994", id:"index_atlas_34"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1725542307608", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1725542307608", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/textinput.js?1725542307608", id:"an.TextInput"},
+		{src:"components/ui/src/css.js?1725542307608", id:"an.CSS"}
 	],
 	preloads: []
 };
