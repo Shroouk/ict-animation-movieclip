@@ -1,3 +1,13 @@
+/* Disable tap highlight and any focus styling on all elements */
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0); /* Disable the tap highlight */
+  -webkit-touch-callout: none; /* Prevent long press context menu */
+  user-select: none; /* Prevent text selection */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+
 .ui-textinput {
   background-color: transparent;
 }
