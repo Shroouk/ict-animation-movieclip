@@ -20,17 +20,9 @@
 	left:0;right:0;
 	top:0;bottom:0;
   }
-  /* Disable tap highlight and any focus styling on all elements */
-* {
-  -webkit-tap-highlight-color: rgba(0,0,0,0); /* Disable the tap highlight */
-  -webkit-touch-callout: none; /* Prevent long press context menu */
-  user-select: none; /* Prevent text selection */
-  -webkit-user-select: none;
-  -moz-user-select: none;
-}
 </style>
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-<script src="index.js?1725951894100"></script>
+<script src="index.js?1725953015514"></script>
 <script>
 // Global Scripts
 	var meta = document.createElement('meta');
@@ -38,6 +30,11 @@ meta.name = 'viewport';
 meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';
 // Append the meta tag to the document head
 document.getElementsByTagName('head')[0].appendChild(meta);
+ var styleLink = document.createElement("link");
+      styleLink.rel = "stylesheet";
+      styleLink.href = "./style.css";
+      styleLink.type = "text/css";
+      document.getElementsByTagName("head")[0].appendChild(styleLink);
 var userName = "";
 var enLang = true;
 var muteAction = false;
@@ -328,6 +325,6 @@ function handleComplete(evt,comp) {
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1024px; height:576px; position: absolute; left: 0px; top: 0px; display: none;">
 		</div>
 	</div>
-    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:576px; width: 1024px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1725951894101 style='vertical-align: middle; max-height: 100%'/></div>
+    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:576px; width: 1024px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1725953015515 style='vertical-align: middle; max-height: 100%'/></div>
 </body>
 </html>
