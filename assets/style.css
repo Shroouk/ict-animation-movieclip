@@ -19,6 +19,7 @@
 input {
   border: none;
   padding: 5px;
+  z-index: 1000;
 }
 
 input:focus {
