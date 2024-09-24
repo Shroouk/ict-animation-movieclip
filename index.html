@@ -21,11 +21,21 @@
 	top:0;bottom:0;
   }
 </style>
-<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-<script src="index.js?1726641888491"></script>
+<script src="libs/1.0.0/createjs.min.js"></script>
+<script src="index.js?1727094049829"></script>
 <script>
 // Global Scripts
-	var meta = document.createElement('meta');
+	window.addEventListener("DOMContentLoaded", function () {
+        var preloadDiv = document.getElementById("_preload_div_");
+        if (preloadDiv) {
+          var preloaderImg = preloadDiv.querySelector("img");
+          if (preloaderImg && preloaderImg.src.includes("_preloader.gif")) {
+            // Update the src to the new file path
+            preloaderImg.src = "./preloader.gif";
+          }
+        }
+      });
+var meta = document.createElement('meta');
 meta.name = 'viewport';
 meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';
 // Append the meta tag to the document head
@@ -47,7 +57,7 @@ var limit = 4;
 var changeSound = true;
 //next and prev:
 function move(f = 0) {
-	console.log("move to : ", dimmed, f)
+//	console.log("move to : ", dimmed, f)
 	if (!dimmed) {
 		createjs.Sound.stop();
 		setTimeout(()=>{this.gotoAndStop(f);},100)
@@ -72,7 +82,7 @@ function wrongAnsHandler(i) {
     playSoundEffect("Wrong_Answer")
 }
 function playSoundEffect(effect){
-	console.log("effect: ", dimmed)
+	//console.log("effect: ", dimmed)
 	if (!dimmed) {
 	createjs.Sound.play(effect);
 	}
@@ -278,7 +288,7 @@ function init() {
 	canvas = document.getElementById("canvas");
 	anim_container = document.getElementById("animation_container");
 	dom_overlay_container = document.getElementById("dom_overlay_container");
-	var comp=AdobeAn.getComposition("0FDC5B707721E7448B5EDCF0EFBE502D");
+	var comp=AdobeAn.getComposition("24E1A902DDCBBE439118208D8ADAB7D7");
 	var lib=comp.getLibrary();
 	var loader = new createjs.LoadQueue(false);
 	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
@@ -325,6 +335,6 @@ function handleComplete(evt,comp) {
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1024px; height:576px; position: absolute; left: 0px; top: 0px; display: none;">
 		</div>
 	</div>
-    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:576px; width: 1024px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1726641888491 style='vertical-align: middle; max-height: 100%'/></div>
+    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:576px; width: 1024px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1727094049829 style='vertical-align: middle; max-height: 100%'/></div>
 </body>
 </html>
